@@ -36,7 +36,7 @@ def get_forecast(city, api_key):
 
 def main():
     city = input("Enter city name: ")
-    api_key = "fef33693713b4e969a70056d109b29d8"  
+    api_key = "enter api key here"  
     get_current_weather(city, api_key)
     get_forecast(city, api_key)
 
